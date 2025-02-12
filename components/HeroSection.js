@@ -1,7 +1,7 @@
 // components/HeroSection.js
 const HeroSection = () => {
   return (
-    <section className="px-40 flex justify-center py-5">
+    <section className="px-4 md:px-40 flex justify-center py-5">
       <div className="flex flex-col max-w-[960px] w-full">
         <div className="flex flex-col gap-6 px-4 py-10 md:flex-row">
           <div
