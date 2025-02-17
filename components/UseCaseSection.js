@@ -4,10 +4,10 @@ const UseCaseSection = () => {
     <section className="px-4 py-10">
       <div className="max-w-[960px] mx-auto">
         <div className="flex flex-col gap-4">
-          <h1 className="text-white text-[32px] font-bold max-w-[720px]">
+          <h1 className="text-white text-3xl md:text-4xl font-bold max-w-[720px]">
             Revolutionize your cooling strategy
           </h1>
-          <p className="text-white text-base max-w-[720px]">
+          <p className="text-white text-sm md:text-base max-w-[720px]">
             Our cutting-edge cooling solutions are designed to meet the unique
             needs of modern data centers, office buildings, and commercial
             facilities. With our advanced technology, you can achieve better
@@ -15,10 +15,10 @@ const UseCaseSection = () => {
             footprint.
           </p>
         </div>
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 mt-8">
-          <div className="flex flex-col gap-3 pb-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
+          <div className="flex flex-col gap-3">
             <div
-              className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+              className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl transform transition duration-300 hover:scale-105"
               style={{
                 backgroundImage:
                   'url("https://cdn.usegalileo.ai/sdxl10/5a0d6eb3-d2a1-44db-9a98-f8be141cc9c8.png")',
@@ -26,9 +26,9 @@ const UseCaseSection = () => {
             ></div>
             <p className="text-white text-base font-medium">Data Centers</p>
           </div>
-          <div className="flex flex-col gap-3 pb-3">
+          <div className="flex flex-col gap-3">
             <div
-              className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+              className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl transform transition duration-300 hover:scale-105"
               style={{
                 backgroundImage:
                   'url("https://cdn.usegalileo.ai/sdxl10/efa9e262-9c00-4bcb-ada5-63dfeb070d6f.png")',
@@ -36,9 +36,9 @@ const UseCaseSection = () => {
             ></div>
             <p className="text-white text-base font-medium">Office Buildings</p>
           </div>
-          <div className="flex flex-col gap-3 pb-3">
+          <div className="flex flex-col gap-3">
             <div
-              className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+              className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl transform transition duration-300 hover:scale-105"
               style={{
                 backgroundImage:
                   'url("https://cdn.usegalileo.ai/sdxl10/7b354de8-26b5-40f8-a349-90c85acd0c1c.png")',
@@ -48,9 +48,9 @@ const UseCaseSection = () => {
               Commercial Facilities
             </p>
           </div>
-          <div className="flex flex-col gap-3 pb-3">
+          <div className="flex flex-col gap-3">
             <div
-              className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+              className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl transform transition duration-300 hover:scale-105"
               style={{
                 backgroundImage:
                   'url("https://cdn.usegalileo.ai/sdxl10/ee557b38-81a2-41af-ab86-bbc9ce60dbe3.png")',

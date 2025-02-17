@@ -2,3 +2,32 @@
 body {
     font-family: 'Manrope', 'Noto Sans', sans-serif;
 }
+/* Prevent selection on everything by default */
+* {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+}
+
+/* Allow selection on common text elements */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+li,
+blockquote,
+code {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
