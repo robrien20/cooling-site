@@ -2,8 +2,8 @@
 import "../../styles/globals.css"; // Adjust path if needed
 
 export const metadata = {
-  title: "Data Center Site",
-  description: "Data Center Site built with Next.js and Tailwind CSS",
+  title: "COOLBLADE",
+  description: "CoolBlade Immersion Cooling",
 };
 
 export default function RootLayout({
