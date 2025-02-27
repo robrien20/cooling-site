@@ -20,7 +20,7 @@ const Header = () => {
           <div className="w-10 h-10 flex-shrink-0">
             <LogoIcon />
           </div>
-          <h2 className="text-lg font-bold">CoolTech</h2>
+          <h2 className="text-lg font-bold">CoolBlade</h2>
         </div>
 
         {/* Center: Desktop Navigation (hidden on mobile) */}
